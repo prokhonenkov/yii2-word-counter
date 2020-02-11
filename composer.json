@@ -1,0 +1,33 @@
+{
+    "name": "prokhonenkov/yii2-word-counter",
+    "description": "The word counter",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Vitaliy Prokhonenkov",
+        "email": "prokhonenkov@gmail.com"
+      }
+    ],
+    "keywords": [
+      "yii2",
+      "extension",
+      "word counter"
+    ],
+    "minimum-stability": "stable",
+    "require": {
+      "php": ">=7.1",
+      "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "prokhonenkov\\wordcounter\\": "src"
+      }
+    },
+    "require-dev": {
+        "codeception/codeception": "^4.1",
+        "codeception/module-yii2": "^1.1",
+        "codeception/module-asserts": "^1.1",
+        "codeception/verify": "^1.2"
+    }
+}
